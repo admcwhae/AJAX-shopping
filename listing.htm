@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Product Listing</title>
+    <script type="text/javascript" src="listing.js"></script>  
+</head>
+<body>
+    <header>
+            <h1>BuyOnline Manager Portal</h1>
+            <ul>
+                <li><a href="listing.htm">Product Listing</a></li>
+                <li><a href="processing.htm">Product Processing</a></li>
+                <li><a href="logout.htm">Logout</a></li>
+            </ul>
+            <hr/>
+        </header>
+    
+    <h2>Product Listing</h2>
+
+    <div id="container">
+        <form method="POST" id="registerForm">
+            <table>
+                <tr><td>Item Name</td><td><input type="text" name="name" id="name"/></td></tr>
+                <tr><td>Item Price</td><td><input type="text" name="price" id="price"/></td></tr>
+                <tr><td>Item Quantity</td><td><input type="text" name="qty" id="qty"/></td></tr>
+                <tr><td>Item Description</td><td><textarea id="description" class="text" cols="16" rows ="2" name="description"></textarea></td></tr>
+            </table>
+            <input type="button" onclick="listItem();" value="Add Item"/>
+            <input type="reset"/>
+        </form>
+        <p class="error" id="error"></p>
+        <p id="confirmation"></p>
+    </div>
+
+</body>
+
+</html>

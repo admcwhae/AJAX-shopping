@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Customer Login</title>
+    <script type="text/javascript" src="login.js"></script>  
+</head>
+<body>
+    <header>
+            <h1>BuyOnline</h1>
+            <ul>
+                <li><a href="register.htm">Customer Registration</a></li>
+                <li><a href="login.htm">Customer Login</a></li>
+                <li><a href="mlogin.htm">Manager Login</a></li>
+            </ul>
+            <hr/>
+        </header>
+    
+    <h2>Customer Login</h2>
+
+    <div id="container">
+        <form method="POST" id="loginForm">
+            <table>
+                <tr><td>Email Address</td><td><input type="text" name="email" id="email"/></td></tr>
+                <tr><td>Password</td><td><input type="password" name="password" id="password"/></td></tr>
+            </table>
+            <span class="error" id="loginError"></span>
+            <br/>
+
+            <input type="button" onclick="login();" value="Login"/>
+        </form>
+
+        <p> New User? Sign up <a href="register.htm"> here! </a></p>
+
+
+
+    </div>
+
+</body>
+
+</html>

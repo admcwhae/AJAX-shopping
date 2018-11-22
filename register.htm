@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Customer Registration</title>
+    <script type="text/javascript" src="register.js"></script>  
+</head>
+<body>
+    <header>
+            <h1>BuyOnline</h1>
+            <ul>
+                <li><a href="register.htm">Customer Registration</a></li>
+                <li><a href="login.htm">Customer Login</a></li>
+                <li><a href="mlogin.htm">Manager Login</a></li>
+            </ul>
+            <hr/>
+        </header>
+    
+    <h2>Customer Registration</h2>
+
+    <div id="container">
+
+        <p> Please fill in all fields with an *</p>
+
+        <form method="POST" id="registerForm">
+            <table>
+                <tr><td>Email Address*</td><td><input type="text" name="email" id="email" onfocusout="checkEmail()"/></td><td id="emailError"></td></tr>
+                <tr><td>First Name* </td><td><input type="text" name="firstName" id="firstName"/></td></tr>
+                <tr><td>Last Name* </td><td><input type="text" name="lastName" id="lastName"/></td></tr>
+                <tr><td>Password* </td><td><input type="password" name="password" id="password"/></td></tr>
+                <tr><td>Re-type Password* </td><td><input type="password" name="passwordCheck" id="passwordCheck"/></td></tr>
+                <tr><td>Phone Number</td><td> <input type="text" name="phone" id="phone"/></td></tr>
+            </table>
+            <span id="formError"></span>
+            <input type="button" onclick="validateForm();" value="Create"/>
+        </form>
+        
+    </div>
+   
+
+</body>
+
+</html>

@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<customers>
+  <customer>
+    <id>1</id>
+    <email>test@example.com</email>
+    <firstName>John</firstName>
+    <lastName>Smith</lastName>
+    <password>123</password>
+  </customer>
+  <customer>
+    <id>2</id>
+    <email>amcwhae@hotmail.com</email>
+    <firstName>Alex</firstName>
+    <lastName>McWhae</lastName>
+    <password>password</password>
+  </customer>
+  <customer>
+    <id>3</id>
+    <email>student@swinburne.edu</email>
+    <firstName>Swinburne</firstName>
+    <lastName>Student</lastName>
+    <password>test</password>
+    <phone>(03)12345678</phone>
+  </customer>
+</customers>

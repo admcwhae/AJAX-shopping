@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<goods>
+  <item>
+    <number>1</number>
+    <name>Samsung 860 EVO 1TB</name>
+    <price>239</price>
+    <description>1TB SSD</description>
+    <qty>19</qty>
+    <holdQty>0</holdQty>
+    <soldQty>0</soldQty>
+  </item>
+  <item>
+    <number>3</number>
+    <name>Keyboard</name>
+    <price>70</price>
+    <description>A basic mechanical keyboard</description>
+    <qty>49</qty>
+    <holdQty>0</holdQty>
+    <soldQty>0</soldQty>
+  </item>
+  <item>
+    <number>4</number>
+    <name>Kingston 16GB RAM</name>
+    <price>190</price>
+    <description>2x8GB DDR4 RAM</description>
+    <qty>97</qty>
+    <holdQty>0</holdQty>
+    <soldQty>0</soldQty>
+  </item>
+  <item>
+    <number>5</number>
+    <name>Acer Monitor</name>
+    <price>170</price>
+    <description>24" 1080p Acer Monitor</description>
+    <qty>2</qty>
+    <holdQty>0</holdQty>
+    <soldQty>0</soldQty>
+  </item>
+  <item>
+    <number>6</number>
+    <name>ASUS GTX 1070</name>
+    <price>520</price>
+    <description>ASUS Nvidia GeForce GTX 1070</description>
+    <qty>4</qty>
+    <holdQty>0</holdQty>
+    <soldQty>0</soldQty>
+  </item>
+</goods>
